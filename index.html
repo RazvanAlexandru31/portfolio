@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donita Razvan Alexandru</title>
+    <link rel="icon" type="image/png" href="./images/newFavicon.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    /> -->
+  </head>
+
+  <body>
+    <!-- SECTION 1 - lading page -->
+    <div class="wrapper">
+      <div class="container">
+        <nav class="navbar">
+          <ul>
+            <li
+              id="about-btn"
+              data-aos="fade-left"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+            >
+              <a href="#about"></a>About
+            </li>
+            <li
+              id="projects-btn"
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-duration="3000"
+            >
+              <a href="#projects"></a>Projects
+            </li>
+            <li
+              id="contact-btn"
+              data-aos="fade-left"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            >
+              <a href="#contact"></a>Contact
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- SECTION 2 - about me -->
+
+      <section id="about" class="about">
+        <i
+          class="fa-solid fa-circle-left fa-2xl"
+          title="Back To Home"
+          id="about-home"
+        ></i>
+        <div class="about--info">
+          <div class="about--container">
+            <h1>About Me</h1>
+            <div class="about--image">
+              <img src="./images/IMG01.jpg" alt="profile-picture" />
+            </div>
+            <p
+              data-aos="fade-left"
+              data-aos-delay="3000"
+              data-aos-duration="3000"
+            >
+            Hey, I'm Donita Razvan, a Frontend focused Web Developer who likes building Frontend Websites and Web Applications.
+            </p>
+          </div>
+          <a
+            href="./documents/razvan_alexandru donita__FRONTEND-4M-EVENING-1.pdf"
+            target="_blank"
+            id="button"
+            ><button>View CV</button></a
+          >
+        </div>
+      </section>
+
+      <!-- SECTION 3 - projects -->
+
+      <section id="projects" class="projects">
+        <i
+          class="fa-solid fa-circle-left fa-2xl"
+          title="Back To Home"
+          id="project-home"
+        ></i>
+        <div class="project-container">
+          <div
+            class="panel"
+            style="
+              background-image: url('./screenshoots/screenshot-quote-generator.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <div class="project-info">
+              <h4>Quote Generator</h4>
+              <p>
+                In this project, I've build a random quote generator using an
+                API that displays a random quote to the users every time they
+                press a button. HTML, CSS and JS where used for this project.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://razvanalexandru31.github.io/random-quote-generator/"
+                  target="_blank"
+                  title="View Project"
+                  ><button>Project</button></a
+                >
+                <a
+                  href="https://github.com/RazvanAlexandru31/random-quote-generator.git"
+                  target="_blank"
+                  ><i class="fa-brands fa-github fa-2x" title="View Code"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="panel"
+            style="
+              background-image: url('./screenshoots/screenshot-music-player.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <div class="project-info">
+              <h4>Music Player</h4>
+              <p>
+                Using HTML, CSS and JavaScript I have created a regular music
+                player app with common features such as: play/pause, go to the
+                next/previous song or get a random song from the list.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://razvanalexandru31.github.io/music-player/"
+                  target="_blank"
+                  title="View Project"
+                  ><button>Project</button></a
+                >
+                <a
+                  href="https://github.com/RazvanAlexandru31/music-player"
+                  target="_blank"
+                  ><i class="fa-brands fa-github fa-2x" title="View Code"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="panel"
+            style="
+              background-image: url('./screenshoots/screenshot-nasa-api.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <div class="project-info">
+              <h4>APOD API- Astronomy Picture of the Day</h4>
+              <p>
+                The user is able to browse different images or photographs of
+                our fascinating universe along with a brief explanation written
+                by a professional astronomer and also add them to their
+                favorites.By using localStorage the data stored in the browser
+                will persist even after the browser window is closed.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://razvanalexandru31.github.io/nasa-apod/"
+                  target="_blank"
+                  title="View Project"
+                  ><button>Click me</button></a
+                >
+                <a href="https://github.com/RazvanAlexandru31/nasa-apod"
+                  ><i class="fa-brands fa-github fa-2x" title="View Code"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="panel"
+            style="
+              background-image: url('./screenshoots/screenshot-memory-game.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <div class="project-info">
+              <h4>React Card Memory Game</h4>
+              <p>
+                A simple card game in which all of the cards are laid face down
+                on a surface and two cards are flipped face up over each
+                turn.This little project focuses on the fundamentals of React:
+                components, props, and state.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://eclectic-centaur-c94d13.netlify.app"
+                  target="_blank"
+                  title="View Project"
+                  ><button>Project</button></a
+                >
+                <a
+                  href="https://github.com/RazvanAlexandru31/memory-game"
+                  target="_blank"
+                  ><i class="fa-brands fa-github fa-2x" title="View Code"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="panel"
+            style="
+              background-image: url('./screenshoots/screenshot-github.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <div class="project-info">
+              <h4>React Search Github Users</h4>
+              <p>
+                Github finder is a Fetch Api project where we can easily find a
+                github user information by simply typing their username. This
+                application shows user Profile, Followers,
+                Following, Website/Blog, Repos and much more. Also it shows the latest 10 repository.
+                Tailwind CSS was used for styling.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://bejewelled-llama-c80fce.netlify.app"
+                  target="_blank"
+                  title="View Project"
+                  ><button>Project</button></a
+                >
+                <a
+                  href="https://github.com/RazvanAlexandru31/github-search-user"
+                  target="_blank"
+                  ><i class="fa-brands fa-github fa-2x" title="View Code"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div
+            class="panel"
+            style="
+              background-image: url('./screenshoots/screenshot-nasa-api.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <div class="project-info">
+              <h4>Title</h4>
+              <p>Description</p>
+              <div class="project-links">
+                <a
+                  href="https://fontawesome.com/v4/examples/"
+                  title="View Project"
+                  ><button>Project</button></a
+                >
+                <a href="https://github.com/"
+                  ><i class="fa-brands fa-github fa-2x" title="View Code"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="panel"
+            style="
+              background-image: url('./screenshoots/screenshot-nasa-api.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <div class="project-info">
+              <h4>Title</h4>
+              <p>Description</p>
+              <div class="project-links">
+                <a
+                  href="https://fontawesome.com/v4/examples/"
+                  title="View Project"
+                  ><button>Project</button></a
+                >
+                <a href="https://github.com/"
+                  ><i class="fa-brands fa-github fa-2x" title="View Code"></i
+                ></a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <!-- SECTION 4 - contact -->
+      <section id="contact" class="contact">
+        <div class="circles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <i
+          class="fa-solid fa-circle-left fa-2xl"
+          title="Back To Home"
+          id="contact-home"
+        ></i>
+        <div class="form">
+          <div class="contact-info">
+            <h4>Contact Information</h4>
+            <div class="info">
+              <div class="pers location">
+                <i class="fas fa-map-location-dot fa-xl"></i
+                ><span>Bucharest, Romania</span>
+              </div>
+              <div class="pers number">
+                <i class="fas fa-phone fa-xl"></i><span>0761.369.257</span>
+              </div>
+              <div class="pers e-adress">
+                <i class="fas fa-envelope fa-xl"></i
+                ><span>razvan.donita@gmail.com</span>
+              </div>
+              <div class="pages-info">
+                <i class="fab fa-linkedin" title="My Linkedin Page"></i>
+                <i class="fab fa-git" title="My Github Page"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+            <span class="circle three"></span>
+            <span class="circle four"></span>
+
+            <form action="index.html">
+              <h4>Write Me</h4>
+
+              <div class="input-container">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your first and last name"
+                  class=""
+                />
+                <small class="hidden" id="info-message"></small>
+              </div>
+
+              <div class="input-container">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="input"
+                  name="email"
+                  placeholder="Your email adress"
+                />
+                <small class="hidden" id="info-message-email"></small>
+              </div>
+
+              <div class="input-container">
+                <label for="phone">Phone</label>
+                <input
+                  type="tel"
+                  class="input"
+                  placeholder="Phone number is optional"
+                  name="phone"
+                />
+                <small class="hidden" id="info-message-phone"></small>
+              </div>
+
+              <div class="input-container">
+                <label for="message">Your message</label>
+                <textarea
+                  spellcheck="false"
+                  cols="34"
+                  rows="4"
+                  class="input"
+                  name="message"
+                ></textarea>
+              </div>
+
+              <hr />
+              <button>Send Message</button>
+            </form>
+          </div>
+        </div>
+        <div class="thanks-message hidden">
+          Message sent successfully! Thanks for your feedback!
+        </div>
+      </section>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+      AOS.init({
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+      });
+    </script>
+  </body>
+</html>
