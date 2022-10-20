@@ -248,6 +248,11 @@ section.projects {
     margin-top: 10px;
 }
 
+.project-links.recipe {
+    display: flex;
+    justify-content: center;
+}
+
 .project-info a button {
     align-items: center;
     background-color: #fa6400;
@@ -721,4 +726,83 @@ hr {
         height: 800px;
         max-width: 450px;
     }
+}
+
+@media screen and (max-width:428px){
+    .form {
+        height: 650px;
+        margin-top: 16px;
+    }
+
+    .form h4 {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .info span {
+        font-size: 12px;
+    }
+
+    .fab {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .contact-info h4 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .input-container label {
+        font-size: 12px;
+    }
+
+    form input {
+        width: 260px;
+        padding: 8px;
+        font-size: 10px;
+        margin-bottom: 2px;
+    }
+
+    .pers {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .contact-form small {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 384px){
+    .about--image {
+        width: 200px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .about--container h1 {
+        font-size: 20px;
+    }
+
+    .about--container p {
+        font-size: 15px;
+    }
+
+    .about--info a button {
+        margin-top: 40px;
+        font-size: 14px;
+        padding: 14px 40px;
+    }
+
+    .project-info p {
+        font-size: 10px;
+    }
+
+    .project-info a button {
+        font-size: 12px;
+        min-height: 0rem;
+        padding: 5px;
+    }
+
 }
