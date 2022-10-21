@@ -174,7 +174,7 @@ nameInput.addEventListener("input", () => {
 
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
+  // e.preventDefault();
   isValidationOn = true;
   validateInput()
   if(isFormValid){
